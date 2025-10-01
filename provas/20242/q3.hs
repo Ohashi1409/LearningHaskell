@@ -1,0 +1,1 @@
+sumPrimeSquares1 :: INT -> INT -> INT
