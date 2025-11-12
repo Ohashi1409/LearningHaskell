@@ -1,4 +1,4 @@
-insert :: INT -> [INT] -> [INT]
+insert :: Int -> [Int] -> [Int]
 insert x [] = [x]
-insert x (n:ns) |
-                | 
+insert x (l:ls) | x > l = l : insert (x) (ls)
+                | otherwise = x : (l:ls)
